@@ -150,7 +150,10 @@ jQuery(function ($) {
         restart: function () {
             var _ = Memory;
             if (!_.paused) {
-                $('#endPage').css('top', '-6000px');
+                $('#endPage').css({
+                    'top' : '-6000px',
+                    'z-index' : '0',
+                });
                 $('#gamePage').css('top', '-3000px');
                 setTimeout(function () {
                     clearTimeout(_.timer);
