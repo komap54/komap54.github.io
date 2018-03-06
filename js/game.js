@@ -30,7 +30,7 @@ jQuery(function ($) {
                 tmp;
 
             var rand = function () {
-                var r = Math.random() * cards.length;
+                var r = Math.random() * (cards.length - 1);
                 r = r.toFixed(0)
                 for (let i = 0; i < used.length; i++) {
                     if (r == used[i]) {
