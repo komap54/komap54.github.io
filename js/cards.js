@@ -1,0 +1,157 @@
+var cards = [{
+    "id": 0,
+    "image": "\/image\/cards\/0C.png"
+}, {
+    "id": 1,
+    "image": "\/image\/cards\/0D.png"
+}, {
+    "id": 2,
+    "image": "\/image\/cards\/0H.png"
+}, {
+    "id": 3,
+    "image": "\/image\/cards\/0S.png"
+}, {
+    "id": 4,
+    "image": "\/image\/cards\/2C.png"
+}, {
+    "id": 5,
+    "image": "\/image\/cards\/2D.png"
+}, {
+    "id": 6,
+    "image": "\/image\/cards\/2H.png"
+}, {
+    "id": 7,
+    "image": "\/image\/cards\/2S.png"
+}, {
+    "id": 8,
+    "image": "\/image\/cards\/3C.png"
+}, {
+    "id": 9,
+    "image": "\/image\/cards\/3D.png"
+}, {
+    "id": 10,
+    "image": "\/image\/cards\/3H.png"
+}, {
+    "id": 11,
+    "image": "\/image\/cards\/3S.png"
+}, {
+    "id": 12,
+    "image": "\/image\/cards\/4C.png"
+}, {
+    "id": 13,
+    "image": "\/image\/cards\/4D.png"
+}, {
+    "id": 14,
+    "image": "\/image\/cards\/4H.png"
+}, {
+    "id": 15,
+    "image": "\/image\/cards\/4S.png"
+}, {
+    "id": 16,
+    "image": "\/image\/cards\/5C.png"
+}, {
+    "id": 17,
+    "image": "\/image\/cards\/5D.png"
+}, {
+    "id": 18,
+    "image": "\/image\/cards\/5H.png"
+}, {
+    "id": 19,
+    "image": "\/image\/cards\/5S.png"
+}, {
+    "id": 20,
+    "image": "\/image\/cards\/6C.png"
+}, {
+    "id": 21,
+    "image": "\/image\/cards\/6D.png"
+}, {
+    "id": 22,
+    "image": "\/image\/cards\/6H.png"
+}, {
+    "id": 23,
+    "image": "\/image\/cards\/6S.png"
+}, {
+    "id": 24,
+    "image": "\/image\/cards\/7C.png"
+}, {
+    "id": 25,
+    "image": "\/image\/cards\/7D.png"
+}, {
+    "id": 26,
+    "image": "\/image\/cards\/7H.png"
+}, {
+    "id": 27,
+    "image": "\/image\/cards\/7S.png"
+}, {
+    "id": 28,
+    "image": "\/image\/cards\/8C.png"
+}, {
+    "id": 29,
+    "image": "\/image\/cards\/8D.png"
+}, {
+    "id": 30,
+    "image": "\/image\/cards\/8H.png"
+}, {
+    "id": 31,
+    "image": "\/image\/cards\/8S.png"
+}, {
+    "id": 32,
+    "image": "\/image\/cards\/9C.png"
+}, {
+    "id": 33,
+    "image": "\/image\/cards\/9D.png"
+}, {
+    "id": 34,
+    "image": "\/image\/cards\/9H.png"
+}, {
+    "id": 35,
+    "image": "\/image\/cards\/9S.png"
+}, {
+    "id": 36,
+    "image": "\/image\/cards\/AC.png"
+}, {
+    "id": 37,
+    "image": "\/image\/cards\/AD.png"
+}, {
+    "id": 38,
+    "image": "\/image\/cards\/AH.png"
+}, {
+    "id": 39,
+    "image": "\/image\/cards\/AS.png"
+}, {
+    "id": 40,
+    "image": "\/image\/cards\/JC.png"
+}, {
+    "id": 41,
+    "image": "\/image\/cards\/JD.png"
+}, {
+    "id": 42,
+    "image": "\/image\/cards\/JH.png"
+}, {
+    "id": 43,
+    "image": "\/image\/cards\/JS.png"
+}, {
+    "id": 44,
+    "image": "\/image\/cards\/KC.png"
+}, {
+    "id": 45,
+    "image": "\/image\/cards\/KD.png"
+}, {
+    "id": 46,
+    "image": "\/image\/cards\/KH.png"
+}, {
+    "id": 47,
+    "image": "\/image\/cards\/KS.png"
+}, {
+    "id": 48,
+    "image": "\/image\/cards\/QC.png"
+}, {
+    "id": 49,
+    "image": "\/image\/cards\/QD.png"
+}, {
+    "id": 50,
+    "image": "\/image\/cards\/QH.png"
+}, {
+    "id": 51,
+    "image": "\/image\/cards\/QS.png"
+}]

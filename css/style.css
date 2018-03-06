@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("../fonts/OpenSansBold.eot");
+    src: url("../fonts/OpenSansBold.eot?#iefix")format("embedded-opentype"), url("../fonts/OpenSansBold.woff") format("woff"), url("../fonts/OpenSansBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    font-family: "OpenSansSemiBold";
+    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot");
+    src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix")format("embedded-opentype"), url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"), url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    font-family: "krungthep";
+    src: url("../fonts/krungthep/krungthep.eot");
+    src: url("../fonts/krungthep/krungthep.eot?#iefix")format("embedded-opentype"), url("../fonts/krungthep/krungthep.woff") format("woff"), url("../fonts/krungthep/krungthep.eot.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body,
+html {
+    height: 100%;
+    background-color: #1b6a2d;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#game {
+    height: inherit;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+@media (max-width: 1280px) and (min-width: 1024px) {
+    #game {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #game {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+#startPage, #endPage {
+    font-family: 'OpenSans-Bold', sans-serif;
+    transition: all 500ms ease;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.btn {
+    border: none;
+    width: 144px;
+    height: 42px;
+    text-align: center;
+    margin-top: 45px;
+    cursor: pointer;
+    letter-spacing: 0;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    color: #1C7430;
+    -webkit-border-radius: 7px;
+    border-radius: 4px;
+    background: #ffffff;
+    opacity: .85;
+}
+
+.btn:hover {
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.4);
+}
+
+.btn:active {
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5) inset;
+}
+
+#gamePage {
+    width: auto;
+    max-width: 1157px;
+    margin: 0 auto;
+    padding-top: 55px;
+    transition: all 1s ease;
+    position: relative;
+}
+
+#gameField {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.card {
+    width: calc((100% / 6) - 30px);
+    margin: 15px 15px;
+    transition: all 500ms ease;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.matched .back,
+.matched .front {
+    opacity: 0;
+}
+
+.picked {
+    transform: rotateY(180deg);
+}
+
+.card .front,
+.card .back {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    position: absolute;
+}
+
+.card .back {
+    transition: all 500ms ease;
+    transform: rotateY(180deg);
+}
+
+.restart[data-tid=Menu-newGame] {
+    float: left; 
+    cursor: pointer; 
+    margin-left:15px; 
+    margin-bottom:15px; 
+    opacity: 0.8; 
+    font-size: 18px; 
+    letter-spacing: 0.25px;  
+    font-family: 'OpenSansSemiBold', sans-serif;
+}
+
+
+#score {
+    margin-left:8px; 
+    font-weight: normal;
+    font-family: 'krungthep', sans-serif; 
+}

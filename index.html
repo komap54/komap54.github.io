@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Memory game</title>
+    <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css" media="all">
+    <meta name="viewport" content="width=1024, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/cards.js"></script>
+    <script type="text/javascript" src="./js/game.js"></script>
+</head>
+
+<body>
+    <div id="game" data-tid="App">
+        <!--Начало-->
+        <div id="startPage" style="z-index: 1000;">
+            <div class="logoStart">
+                <img src="./image/startGame.png">
+            </div>
+            <p style="font-size:28px; color: #fff; font-weight: bold; letter-spacing: 0.4px; line-height: 38px; opacity: 0.85;">MEMORY GAME</p>
+            <button type="button" class="btn start" data-tid="NewGame-startGame">Начать игру</button>
+        </div>
+        <!--Игра-->
+        <div id="gamePage" style="top:-3000px;">
+            <div class="control" style="display:table; width:100%; color: #fff;">
+                <div class="restart" data-tid="Menu-newGame">Начать заново</div>
+                <div class="score" style="float: right; margin-right:15px; margin-bottom:15px; font-family: 'OpenSans-Bold', sans-serif; font-weight: bold; font-size: 18px;">Очки:
+                    <span id="score" data-tid="Menu-scores">0</span>
+                </div>
+            </div>
+            <div id="gameField" data-tid="Deck"></div>
+        </div>
+        <!--Конец-->
+        <div id='endPage' style="top: -6000px;">
+            <div class="logoEnd">
+                <img src="./image/endGame.png">
+            </div>
+            <div style="font-size:28px; color: #fff; font-weight: bold; letter-spacing: 0.4px; line-height: 38px; opacity: 0.85;">
+                <p>Поздравляем!</p>
+                <p>Ваш игровой счет:
+                    <span id="resultField"></span>
+                </p>
+            </div>
+            <button type="button" class="btn restart" data-tid="EndGame-retryGame">Еще раз</button>
+        </div>
+    </div>
+</body>
+
+</html>
